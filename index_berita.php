@@ -519,7 +519,7 @@ if ($result_berita) {
                             while ($kategori = mysqli_fetch_assoc($result_kategori)):
                             ?>
                                 <li>
-                                    <a href="kategori/<?= htmlspecialchars($kategori['slug_kategori']) ?>">
+                                    <a href="kategori.php?slug=<?= htmlspecialchars($kategori['slug_kategori']) ?>">
                                         <?= htmlspecialchars($kategori['nama_kategori']) ?>
                                         <span class="count"><?= $kategori['jumlah_berita'] ?></span>
                                     </a>
@@ -532,8 +532,8 @@ if ($result_berita) {
                     <div class="news-sidebar">
                         <h3 class="sidebar-title">Berita Terbaru</h3>
                         <?php
-                        // Query untuk berita terbaru - TAMBAHKAN views_count
-                        $query_recent = "SELECT judul_berita, slug_berita, gambar_utama, tanggal_publish, views_count, penulis
+                        // PERBAIKAN: Hapus field penulis dari query
+                        $query_recent = "SELECT judul_berita, slug_berita, gambar_utama, tanggal_publish, views_count
                                        FROM berita 
                                        WHERE status_berita = 'publish' 
                                        AND tanggal_publish <= NOW() 
