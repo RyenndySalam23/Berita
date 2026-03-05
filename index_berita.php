@@ -532,7 +532,6 @@ if ($result_berita) {
                     <div class="news-sidebar">
                         <h3 class="sidebar-title">Berita Terbaru</h3>
                         <?php
-                        // PERBAIKAN: Hapus field penulis dari query
                         $query_recent = "SELECT judul_berita, slug_berita, gambar_utama, tanggal_publish, views_count
                                        FROM berita 
                                        WHERE status_berita = 'publish' 
