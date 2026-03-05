@@ -578,11 +578,11 @@ if ($result_berita) {
                 <div class="contact-details">
                     <div class="contact-item">
                         <i class="fas fa-map-marker-alt"></i>
-                        <span>Jalan Raya Cikajang No. 123, Garut, Jawa Barat 44151</span>
+                        <span>Jl. KH. Hasan Arif, Banyuresmi, Kabupaten Garut, Jawa Barat, kode pos 44191</span>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-phone"></i>
-                        <span>(0262) 123-4567</span>
+                        <span>+62......</span>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-envelope"></i>
@@ -610,9 +610,9 @@ if ($result_berita) {
                 </div>
             </div>
             <div class="map-container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.207647377897!2d107.90820377460045!3d-7.214882392809577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68ad6c3c5a7c3d%3A0xe67193c0b56b75e2!2sGarut%2C%20Kec.%20Garut%20Kota%2C%20Kabupaten%20Garut%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1686745678901!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://maps.google.com/maps?q=Lembaga%20Pemasyarakatan%20Kelas%20IIA%20Garut&t=&z=15&ie=UTF8&iwloc=&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-        </div>
+        </div>  
     </div>
 </section>
 
